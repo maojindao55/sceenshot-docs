@@ -3,15 +3,20 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
   logo: <span>Captura-De-Pantalla.com</span>,
-  Android: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+  // project: {
+  //   link: 'https://github.com/shuding/nextra-docs-template',
+  // },
+  // chat: {
+  //   link: 'https://discord.com',
+  // },
+  // docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  search: {
+    placeholder: 'Buscar',
   },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  gitTimestamp: `Última actualización: ${new Date().toISOString().slice(0,10)}`,
+  darkMode: false,
   footer: {
-    text: 'Nextra Docs Template',
+    text: '© 2023 captura-de-pantalla.com',
   },
 }
 

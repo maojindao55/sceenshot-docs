@@ -1,11 +1,51 @@
-# Introduction
- 
-Welcome to Nextra! This is a basic docs template. You can use it as a starting point for your own project :)
 
-## What is Nextra?
+### ¿Cómo hago una captura de pantalla?
 
-A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
+Mantén pulsada <WinKey/>  y	<ShiftKey/>	 y  pulsa	<SKey/>	=	Utilice el ratón para dibujar un **rectángulo** especificando qué quieres capturar. Windows captura esta zona y la copia en el **portapapeles**.
 
-## Documentation
+### Suponemos que la captura está ahora en el portapapeles. ¿Cómo puedo pegarla en un documento o algo?
 
-The documentation is available at [https://nextra.site](https://nextra.site).
+Mantén pulsada <CtrlKey/> y pulsa <VKey/> =  Windows pega la captura de pantalla (que está en el **portapapeles**) en un documento o en una imagen que estés editando.
+
+### ¿Dónde debo pegarla? Sólo necesito un archivo gráfico.
+
+1. Inicia “Paint”
+2. Pega
+3. Guarda
+
+![paint](../images/start_paint_win7.png)
+### ¿Cómo hago una captura de pantalla y la guardo directamente como archivo?
+
+Mantén pulsada	<WinKey/>	y pulsa	<PrtScnKey/>	=	Windows (8 o 10) captura la totalidad de la **pantalla** y la guarda como archivo en tu carpeta **Imágenes** > **Capturas de pantalla**.
+
+### ¿Hay un programa dedicado a hacer capturas de pantalla? ¿Cómo puedo encontrarlo?
+![Recortes](../images/start_snipping_tool_win7.png)
+
+{/* Import CSS modules */}
+import styles from '../components/keys.module.css'
+
+export const Stars = () => {
+  return <strong>okkk </strong>
+}
+
+export const WinKey = () => {
+   return <span className={styles.key} ><span className={styles.Winspan}></span></span>
+}
+
+export const ShiftKey = () => {
+   return <span  className={styles.key} ><span className={styles.Shiftspan}>Shift</span></span>
+}
+
+export const SKey = () => {
+   return <span className={styles.key}>S</span>
+}
+export const VKey = () => {
+   return <span  className={styles.key}>V</span>
+}
+export const PrtScnKey = () => {
+   return <span className={`${styles.key} ${styles.PrtScn}`} >PrtScn</span>
+}
+
+export const CtrlKey = () => {
+   return <span className={styles.Ctrl} className={styles.key}>Ctrl</span>
+}
