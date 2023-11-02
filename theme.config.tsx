@@ -2,6 +2,18 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
+  useNextSeoProps() {
+    return {
+      title : 'Captura De Pantalla',
+      titleTemplate: '%s en Windows?',
+      description: 'Utilice los atajos de teclado o “Recortes” para tomar una captura de pantalla de toda la pantalla o de una sola ventana.'
+    }
+  },
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </>
+  ),
   logo: <span>Captura-De-Pantalla.com</span>,
   // project: {
   //   link: 'https://github.com/shuding/nextra-docs-template',
