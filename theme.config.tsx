@@ -12,6 +12,7 @@ const config: DocsThemeConfig = {
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="google-site-verification" content="TukPLuA56hCEMKGkBKTRJaDbmlgA2NohniSEOH-SkNs" />
     </>
   ),
   logo: <span>Captura-De-Pantalla.com</span>,
