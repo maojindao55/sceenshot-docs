@@ -16,7 +16,7 @@ const config: DocsThemeConfig = {
       <meta name="google-site-verification" content="TukPLuA56hCEMKGkBKTRJaDbmlgA2NohniSEOH-SkNs" />
     </>
   ),
-  logo: <span>Captura-De-Pantalla.com</span>,
+  logo: <span>TabSider.com</span>,
   // project: {
   //   link: 'https://github.com/shuding/nextra-docs-template',
   // },
@@ -30,7 +30,7 @@ const config: DocsThemeConfig = {
   gitTimestamp: `Última actualización: ${new Date().toISOString().slice(0,10)}`,
   darkMode: false,
   footer: {
-    text: '© 2023 captura-de-pantalla.com',
+    text: '© 2024 TabSider.com',
   },
 }
 
