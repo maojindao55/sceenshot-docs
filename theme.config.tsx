@@ -4,9 +4,9 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   useNextSeoProps() {
     return {
-      title : 'Captura De Pantalla',
-      titleTemplate: '%s en Windows?',
-      description: 'Utilice los atajos de teclado o “Recortes” para tomar una captura de pantalla de toda la pantalla o de una sola ventana.'
+      title : 'TabSider extension for Google Chrome and Edge - A sidebar tool for efficient tab management.',
+      titleTemplate: '%s | TabSider.com',
+      description: 'TabSider is a sidebar extension for Google Chrome and Edge that helps you manage your tabs efficiently. It allows you to group tabs, search, and switch between them quickly.',
     }
   },
   head: (
@@ -25,9 +25,9 @@ const config: DocsThemeConfig = {
   // },
   // docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   search: {
-    placeholder: 'Buscar',
+    placeholder: 'Search',
   },
-  gitTimestamp: `Última actualización: ${new Date().toISOString().slice(0,10)}`,
+  gitTimestamp: `updated: ${new Date().toISOString().slice(0,10)}`,
   darkMode: false,
   footer: {
     text: '© 2024 TabSider.com',

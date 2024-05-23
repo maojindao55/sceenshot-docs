@@ -1,51 +1,29 @@
 
-### ¿Cómo hago una captura de pantalla?
+### Manage your mess tabs 
+1. Save tabs to `Persistent` for saving memeory 95%, it will never lost your tabs until you uninstall the `TabSider` extension
+<VideoIntra/>
 
-Mantén pulsada <WinKey/>  y	<ShiftKey/>	 y  pulsa	<SKey/>	=	Utilice el ratón para dibujar un **rectángulo** especificando qué quieres capturar. Windows captura esta zona y la copia en el **portapapeles**.
+2. Manage your Persistent tabs
+  * Lock or Unlock tab group
+  * Edit tab group title
+  * Edit tab title
+  * Drag tab freely for changing position
+<VideoIntra2/>
 
-### Suponemos que la captura está ahora en el portapapeles. ¿Cómo puedo pegarla en un documento o algo?
+### Edit tab url in Session
 
-Mantén pulsada <CtrlKey/> y pulsa <VKey/> =  Windows pega la captura de pantalla (que está en el **portapapeles**) en un documento o en una imagen que estés editando.
+You can edit a tab url easy, It can also debug a GET API like `PostMan` or `PoxyMan`
 
-### ¿Dónde debo pegarla? Sólo necesito un archivo gráfico.
+<VideoIntra3/>
 
-1. Inicia “Paint”
-2. Pega
-3. Guarda
-
-![paint](../images/start_paint_win7.png)
-### ¿Cómo hago una captura de pantalla y la guardo directamente como archivo?
-
-Mantén pulsada	<WinKey/>	y pulsa	<PrtScnKey/>	=	Windows (8 o 10) captura la totalidad de la **pantalla** y la guarda como archivo en tu carpeta **Imágenes** > **Capturas de pantalla**.
-
-### ¿Hay un programa dedicado a hacer capturas de pantalla? ¿Cómo puedo encontrarlo?
-![Recortes](../images/start_snipping_tool_win7.png)
-
-{/* Import CSS modules */}
-import styles from '../components/keys.module.css'
-
-export const Stars = () => {
-  return <strong>okkk </strong>
+export const VideoIntra = () => {
+return <iframe src="https://www.vidline.com/iframePlayer?id=V0DDH1JAOE&key=d0874b3144183ca2c76646c66692f95d&in-modal=1&hideInfo=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="640" height="360"> </iframe>
 }
 
-export const WinKey = () => {
-   return <span className={styles.key} ><span className={styles.Winspan}></span></span>
+export const VideoIntra2 = () => {
+   return <iframe src="https://www.vidline.com/iframePlayer?id=V0G2H2MN6V&key=f16b3063e0c326a8b04c15d0000773b9&in-modal=1&hideInfo=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="640" height="360"> </iframe>
 }
 
-export const ShiftKey = () => {
-   return <span  className={styles.key} ><span className={styles.Shiftspan}>Shift</span></span>
-}
-
-export const SKey = () => {
-   return <span className={styles.key}>S</span>
-}
-export const VKey = () => {
-   return <span  className={styles.key}>V</span>
-}
-export const PrtScnKey = () => {
-   return <span className={`${styles.key} ${styles.PrtScn}`} >PrtScn</span>
-}
-
-export const CtrlKey = () => {
-   return <span className={styles.Ctrl} className={styles.key}>Ctrl</span>
+export const VideoIntra3 = () => {
+   return <iframe src="https://www.vidline.com/iframePlayer?id=V034HGBZZO&key=2acab1e23282a537d3c81f76ad3334e3&in-modal=1&hideInfo=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="640" height="360"> </iframe>
 }
